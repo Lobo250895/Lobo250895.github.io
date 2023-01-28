@@ -1,0 +1,276 @@
+.fila_portada{
+   background-image: 
+   linear-gradient(rgba(141, 191, 214, 0.85), rgba(0, 0, 0, 0.95)),
+  url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/03/13155011/A-un-mes-de-Game-Of-Thrones-como-estan-las-historias-Series.jpg );
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+html{
+   scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(255, 228, 196);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0%;
+}
+.fila{
+   display: flex;
+}
+/*selector de hijo directo*/
+.fila > div {
+   padding: 10px;
+}
+.fila_portada img{
+    width: 190px;
+    border-radius: 40%;
+    float: left;
+}
+.portada{
+   width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0%;
+}
+.actividad{
+   display: flex;
+}
+.actividad{
+   width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   align-items:left;
+}
+ h1 {
+   color: rgb(10, 61, 135, 1);
+   font-size: 30px;
+   float: left;
+   padding-top:inherit;
+ }
+
+ a{
+   color: rgb(165, 42, 42);
+   list-style-type: none;
+   padding-left: 0;
+   margin-top: 0;
+   bottom: 0;
+   margin-left: 10px;
+   font-size: larger;
+ }
+
+ /* selector de clase*/
+ .texto-destacado {
+text-transform: uppercase;
+text-align: left;
+ }
+ .fuente-destacada{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ /*selector de id*/
+#Menu {
+   font-size: 30px;
+   font-family: cursive;
+}
+
+.marco{
+   border: 3px solid rgb(207, 140, 140);
+} 
+
+h6{
+   font-size: 30px;
+  
+}
+
+h5{
+   font-size: 20px;
+   text-align: left;
+}
+
+h4{
+   font-size: 20px;
+   text-align: left;
+}
+
+.portada p{
+   font-family: cursive;
+   padding-top: 60px;
+   text-align: left;
+}
+
+h2{
+   text-align: left;
+}
+
+li{
+   text-align: left;
+}
+
+.fila_jesse{
+   float: right;
+   padding-top: 0%;
+}
+
+.nav-link{
+   background-color:rgb(231, 182, 126);
+   color: #33272a;
+   display: inline-block;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+aside,main{
+   width: 50%;
+   margin-top: 0%;
+   
+}
+aside{
+   background: rgb(187, 159, 126);
+   color: #eee;
+   
+}
+main{
+   background: #eee;
+   color: #333;
+   align-content: space-between;
+}
+body aside,main{
+   font-weight: bold;
+   min-height: 100vh;
+}
+.prueba{
+   float: center;
+   margin-top: 0px;
+}
+.info{
+   margin-top: -16px;
+}
+
+table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+   background-color: #eee;
+   margin: 0%;
+   margin-top: -14px;
+ }
+ 
+ td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+ }
+ 
+ tr:nth-child(even) {
+   background-color: #dddddd;
+ }
+
+.cold-md-4{
+   float: right;
+   margin-top: -230px;
+   margin-right: 30px;
+
+ }
+
+ .imagenes_habilidades{
+   float: right;
+   margin-top: -600px;
+   align-content: center;
+   margin-right: 10px;
+  
+ }
+ .imagenes_habilidades {
+   background-color: #eee;
+
+ }
+
+ body {
+   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, 
+   "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, 
+   "Helvetica Neue", Helvetica, Arial, sans-serif; 
+ }
+
+
+ .iconos {
+   cursor: pointer;
+   display: flex;
+   width: 40px;
+   height: 48px;
+   float: center;
+   margin: 20px;
+   background-size: 378px;
+   background-position-y: -48px;
+   flex-direction: row;
+   margin-top: 0%;
+
+}
+
+.perfil{
+   padding-top: 30px;
+   float: right;
+   padding-right: 700px;
+
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.suppoprt-me {
+	display: inline-block;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	width: 20vw;
+	max-width: 250px;
+	min-width: 200px;
+	z-index: 9;
+	
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+
